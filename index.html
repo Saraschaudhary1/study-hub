@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Study Hub</h1>
+    <p id="greeting">Ready for today's sprint</p>
+  </header>
+
+  <main>
+    <!-- Feature 1: Task Tracker -->
+    <section class="card" id="task-section">
+      <h2>Daily Tasks</h2>
+      <div class="input-row">
+        <input type="text" id="task-input" placeholder="Add a study task..." />
+        <button id="add-task-btn">Add</button>
+      </div>
+      <ul id="task-list"></ul>
+    </section>
+
+    <!-- Feature 2: Focus Timer (To be built on a branch) -->
+    <section class="card" id="timer-section">
+      <h2>Focus Timer</h2>
+      <p id="timer-display">25:00</p>
+    </section>
+
+    <!-- Feature 3: Quick Notes (To be built on a branch) -->
+    <section class="card" id="notes-section">
+      <h2>Quick Notes</h2>
+      <textarea id="notes-area" placeholder="Jot down quick formulas or reminders..."></textarea>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
